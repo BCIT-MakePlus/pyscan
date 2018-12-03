@@ -70,7 +70,7 @@ class LoadScan_UI(UI):
         self.show_but = Button(self.botbut_frame, state=DISABLED, text='Show Model', width=12)
         self.show_but.grid(row=1, column=1, pady=15)
 
-        self.hist_but = Button(self.botbut_frame, state=DISABLED, text='Show Histogram', width=15)
+        self.hist_but = Button(self.botbut_frame, state=DISABLED, text='Show Comparison', width=15)
         self.hist_but.grid(row=1, column=2, pady=15)
 
         self.classify_but = Button(self.botbut_frame, text='Classify', width=10)

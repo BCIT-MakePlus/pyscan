@@ -1,6 +1,6 @@
 # Features:
-# Email Parser - gathers .ply scans from an email
-# Model Classifier - loads .ply file and returns the shape of the object
+# Email Parser - downloads scans from an email
+# Model Classifier - loads .ply or .obj files and returns the shape of the object
 
 from tkinter import Tk, mainloop
 from controller.GUI_main_controller import main_controller
