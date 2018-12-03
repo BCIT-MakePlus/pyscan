@@ -29,6 +29,16 @@ Python is required to be able to run this program.
 - When logged into mail parser, if you leave screen or close application an error will show
 
 ## Installation:
+
+### Install Python
+Refer to the [Python 3 Installation & Setup Guide](https://realpython.com/installing-python/) to properly configure and install Python. \
+For our program, we used Python 3.6. 
+
+### Install Git
+Dowload Git from [here](https://git-scm.com/downloads). You will need this to clone the GitHub repository.
+
+In a terminal window, cd to a location you want to save the repository to. Then run one of the following commands:
+
 Clone the repository using HTTPS:
 ```
 git clone https://github.com/emilieez/pyscan.git
@@ -39,10 +49,6 @@ Clone the repository using SSH:
 ```
 git clone git@github.com:emilieez/pyscan.git
 ```
-
-### Install Python
-Refer to the [Python 3 Installation & Setup Guide](https://realpython.com/installing-python/) to properly configure and install Python. \
-For our program, we used Python 3.6. 
 
 ### Installing Dependencies
 A [virtual environment](#Run-the-PyScan-virtual-environment) is provided if the dependencies are not installed.
@@ -58,7 +64,9 @@ pip3 install -r requirements.txt
 ```
 
 ## Run the PyScan virtual environment
-A virtual environment is provided if the dependencies are not installed.
+A virtual environment is provided if the dependencies are not installed. This will allow you to use all of the 
+libraries needed without having to install it on your computer. Keep the environment
+active as long as you are running the application.
 ### Windows:
 
 Run the following line in Command Prompt:
