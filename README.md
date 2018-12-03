@@ -1,5 +1,5 @@
 # PyScan3D
-Uses data gathered from the Structure Sensor by Occipital to classify things into their respective shapes. 
+Uses data gathered from an iPad and the Structure Sensor by Occipital to classify things into their respective shapes. 
 Python is required to be able to run this program.
 
 
@@ -8,7 +8,7 @@ Python is required to be able to run this program.
 2. [Known Application Bugs](#Known-Application-Bugs)
 3. [Installation](#Installation)
 4. [Run the PyScan virtual environment](#Run-the-PyScan-virtual-environment)
-5. [Running the PyScan3D Application](#Running-the-PyScan3D-Application)
+5. [Running the PyScan Application](#Running-the-PyScan3D-Application)
 6. [Troubleshooting](#Troubleshooting)
 
 
@@ -91,7 +91,7 @@ The terminal should now look something like this:
 ```
 (PyScan) root@localhost:~/pyscan$
 ```
-Proceed to: [Running the PyScan3D Application](#Running-the-PyScan3D-Application).
+Proceed to: [Running the PyScan Application](#Running-the-PyScan-Application).
 
 ### Deactivate the Virtual Environment
 If you no longer want to run the application, you will also need to deactivate the virtual environment.<br>
@@ -112,7 +112,42 @@ python pyscan.py
 
 ## Using PyScan
 
-<img src="https://github.com/BCIT-MakePlus/pyscan/screenshots/main_screen.png" width="200" height="200" />
+### Main Screen
+
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/main_screen.png" width="200" height="200" />
+
+### Downloading Scans
+
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/download_screen.png" width="200" height="200" />
+
+##### Once the scans have been sent to your email from the iPad, you can directly download the file here.
+##### Currently, only Gmail and Outlook are supported for this application.
+
+
+### Classify the downloaded scans
+
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/classify_results_screen.png" width="200" height="200" />
+
+##### This allows you to load in a single .obj or .ply file to compare it to the data saved in the object_data.csv file.
+
+##### Click the "Classify" button to see how well the loaded file matches the stored data.
+
+##### Click the "Show Model" button to view the file.
+
+##### Click the "Show Comparison" button to visualize the classification output. 
+
+### Show Model
+
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/3D_Hand_Model.png" position="relative" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/wireframe.png" position="relative" width="200" height="200" />
+
+##### Press 'W' to switch to wireframe view (right image)
+
+### Show Comparison
+
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/show_comparison_screen.png" width="200" height="200" />
+
+##### The blue colored histogram is the data stored in the object_data.csv.
 
 ## Troubleshooting
 
