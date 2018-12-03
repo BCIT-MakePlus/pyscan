@@ -39,12 +39,12 @@ Dowload Git from [here](https://git-scm.com/downloads). You will need this to cl
 
 In a terminal window, cd to a location you want to save the repository to. Then run one of the following commands:
 
-Clone the repository using HTTPS:
+### Clone the repository using HTTPS:
 ```
 git clone https://github.com/emilieez/pyscan.git
 ```
 
-Clone the repository using SSH:
+### Clone the repository using SSH:
 
 ```
 git clone git@github.com:emilieez/pyscan.git
