@@ -139,7 +139,6 @@ python pyscan.py
 ### Show Model
 
 <img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/3D_Hand_Model.png" position="relative" width="400" height="400" />
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/wireframe.png" position="relative" width="400" height="400" />
 
 ##### Press 'W' to switch to wireframe view (right image)
 
