@@ -114,11 +114,11 @@ python pyscan.py
 
 ### Main Screen
 
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/main_screen.png" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/main_screen.png" width="400" height="400" />
 
 ### Downloading Scans
 
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/download_screen.png" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/download_screen.png" width="400" height="400" />
 
 ##### Once the scans have been sent to your email from the iPad, you can directly download the file here.
 ##### Currently, only Gmail and Outlook are supported for this application.
@@ -126,7 +126,7 @@ python pyscan.py
 
 ### Classify the downloaded scans
 
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/classify_results_screen.png" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/classify_results_screen.png" width="400" height="400" />
 
 ##### This allows you to load in a single .obj or .ply file to compare it to the data saved in the object_data.csv file.
 
@@ -138,14 +138,14 @@ python pyscan.py
 
 ### Show Model
 
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/3D_Hand_Model.png" position="relative" width="200" height="200" />
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/wireframe.png" position="relative" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/3D_Hand_Model.png" position="relative" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/wireframe.png" position="relative" width="400" height="400" />
 
 ##### Press 'W' to switch to wireframe view (right image)
 
 ### Show Comparison
 
-<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/show_comparison_screen.png" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/BCIT-MakePlus/pyscan/master/screenshots/show_comparison_screen.png" width="400" height="400" />
 
 ##### The blue colored histogram is the data stored in the object_data.csv.
 
