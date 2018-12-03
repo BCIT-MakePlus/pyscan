@@ -1,8 +1,10 @@
 .idea
 .vscode
 /model/out.txt
-/model/scans/
-/model/training/
+/model/scans/*.obj
+/model/scans/*.ply
+/model/training/*.obj
+/model/training/*.ply
 /model/trained_data.pkl
 /model/credentials.py
 /model/test.py

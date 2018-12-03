@@ -70,7 +70,7 @@ class LoadScan_controller:
 
     def show_histogram(self):
         """
-            Asynch does not work here for some reason
+            Asynch does not work due to tkinter limitations
         """
         main_frame.current_frame.Data_listbox.insert(END, "Generating Histogram...")
         self.classifier.show_histogram(self.classifier.existing_data, self.classifier.data, self.classifier.matching_shape)
