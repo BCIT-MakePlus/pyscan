@@ -104,14 +104,19 @@ or on Linux/MacOS:
 deactivate
 ```
 
-## Running the PyScan3D Application
+## Running the PyScan Application
 In the root folder of the repository type:
 ```
 python pyscan.py
 ```
 
+## Using PyScan
+
+<img src="https://github.com/BCIT-MakePlus/pyscan/screenshots/main_screen.png" width="200" height="200" />
+
 ## Troubleshooting
 
+Refer to [Known Application Bugs](#Known-Application-Bugs) if the problem is not listed here.
 
 ### 1.) The system cannot find the path specified.
 Ensure you are in the root folder. This is the main folder that houses all the files. 
