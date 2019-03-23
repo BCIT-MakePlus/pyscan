@@ -35,9 +35,9 @@ Refer to the [Python 3 Installation & Setup Guide](https://realpython.com/instal
 For our program, we used Python 3.6. 
 
 ### Install Git
-Dowload Git from [here](https://git-scm.com/downloads). You will need this to clone the GitHub repository.
+Download Git from [here](https://git-scm.com/downloads). You will need this to clone the GitHub repository.
 
-In a terminal window, cd to a location you want to save the repository to. Then run one of the following commands:
+In a terminal window, cd to a location you want to save the repository to. Run one of the following commands:
 
 ### Clone the repository using HTTPS:
 ```
@@ -64,9 +64,9 @@ pip3 install -r requirements.txt
 ```
 
 ## Run the PyScan virtual environment
-A virtual environment is provided if the dependencies are not installed. This will allow you to use all of the 
+A virtual environment is provided if the dependencies are not installed, allowing you to use all of the 
 libraries needed without having to install it on your computer. Keep the environment
-active as long as you are running the application.
+active when running the application.
 ### Windows:
 
 Run the following line in Command Prompt:
@@ -94,8 +94,8 @@ The terminal should now look something like this:
 Proceed to: [Running the PyScan Application](#Running-the-PyScan-Application).
 
 ### Deactivate the Virtual Environment
-If you no longer want to run the application, you will also need to deactivate the virtual environment.<br>
-To deactivate the virtual environment on Windows, simply type:
+To terminate the application, you will need to deactivate the virtual environment.<br>
+To deactivate, type:
 ```
 PyScan\Scripts\deactivate
 ```
