@@ -41,13 +41,13 @@ In a terminal window, cd to a location you want to save the repository to. Run o
 
 ### Clone the repository using HTTPS:
 ```
-git clone https://github.com/emilieez/pyscan.git
+git clone https://github.com/BCIT-MakePlus/pyscan.git
 ```
 
 ### Clone the repository using SSH:
 
 ```
-git clone git@github.com:emilieez/pyscan.git
+git clone git@github.com:BCIT-MakePlus/pyscan.git
 ```
 
 ### Installing Dependencies
